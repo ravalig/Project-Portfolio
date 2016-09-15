@@ -1,0 +1,25 @@
+.title-logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-align {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.align-text {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.three-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.subtitle {
+    text-align: left;
+}

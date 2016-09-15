@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Project Portfolio</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400' rel='stylesheet' type='text/css'>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.4.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (min-width:768px)" href="css/over700.css">
+</head>
+
+<body>
+  <div class="container">
+
+      <div class="row title-logo">
+          <div class="col-sm-6 image-align">
+              <img class="img-responsive image-logo" src="img/Udacity_Logo.svg" alt="Udacity Logo">
+          </div>
+
+          <div class="col-sm-6 align-text">
+            <header class="text-uppercase">
+              <h1 class="text-thin">Jane Doette</h1>
+              <h4>Front-End Ninja</h4>
+            </header>
+          </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+
+      <main>
+        <div class="row">
+          <div class="col-md-12">
+            <img class="img-responsive center-block" src="img/main-image.jpg" srcset = "img/main-image-small.jpg 320w, img/main-image-medium.jpg 640w, img/main-image-large.jpg 1024w" alt="Main Image">
+          </div>
+        </div>
+      </main>
+
+        <header>
+          <div class="row subtitle">
+              <div class="col-md-12">
+                <h2 class="text-muted">Featured Work</h2>
+              </div>
+          </div>
+        </header>
+
+        <article>
+          <div class="row text-center three-images">
+
+            <div class="col-md-4">
+              <img class="img-responsive center-block" src="img/appify.png" srcset = "img/appify-small.png 320w, img/appify-medium.png 640w, img/appify-large.png 1024w" alt="Appify Image" data-toggle="modal" data-target="#modalAppify">
+              <h3 class="text-uppercase">Appify</h3>
+              <a href="https://github.com/udacity/Appify">https://github.com/udacity/Appify/</a>
+            </div>
+
+            <div class="col-md-4">
+              <img class="img-responsive center-block" src="img/sunflower.jpg" srcset = "img/sunflower-small.jpg 320w, img/sunflower-medium.jpg 640w, img/sunflower-large.jpg 1024w" alt="Sunflower Image"
+              data-toggle="modal" data-target="#modalSunflower">
+              <h3 class="text-uppercase">Sunflower</h3>
+              <a href="https://github.com/udacity/Sunflower">https://github.com/udacity/Sunflower/</a>
+            </div>
+
+            <div class="col-md-4">
+              <img class="img-responsive center-block" src="img/bokeh.jpg" srcset = "img/bokeh-small.jpg 320w, img/bokeh-medium.jpg 640w, img/bokeh-large.jpg 1024w" alt="Bokeh Image" data-toggle="modal" data-target="#modalBokeh">
+              <h3 class="text-uppercase">Bokeh</h3>
+              <a href="https://github.com/udacity/Bokeh">https://github.com/udacity/Bokeh/</a>
+            </div>
+
+          </div>
+        </article>
+
+  </div>
+
+  <div class="modal fade" id="modalAppify" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-center" id="myModalLabel">APPIFY</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive center-block" src="img/appify.png" srcset = "img/appify-small.png 320w, img/appify-medium.png 640w, img/appify-large.png 1024w" alt="Appify Image">
+                    <p>You will be provided with a design mockup as a PDF-file and must replicate that design in HTML and CSS. You will develop a responsive website that will display images, descriptions and links to each of the portfolio projects you will complete throughout the course of the Front-End Web Developer Nanodegree.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <div class="modal fade" id="modalSunflower" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-center" id="myModalLabel">SUNFLOWER</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive center-block" src="img/sunflower.jpg" srcset = "img/sunflower-small.jpg 320w, img/sunflower-medium.jpg 640w, img/sunflower-large.jpg 1024w" alt="Sunflower Image">
+                    <p>You will be provided with a design mockup as a PDF-file and must replicate that design in HTML and CSS. You will develop a responsive website that will display images, descriptions and links to each of the portfolio projects you will complete throughout the course of the Front-End Web Developer Nanodegree.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      <div class="modal fade" id="modalBokeh" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-center" id="myModalLabel">BOKEH</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive center-block" src="img/bokeh.jpg" srcset = "img/bokeh-small.jpg 320w, img/bokeh-medium.jpg 640w, img/bokeh-large.jpg 1024w" alt="Bokeh Image">
+                    <p>You will be provided with a design mockup as a PDF-file and must replicate that design in HTML and CSS. You will develop a responsive website that will display images, descriptions and links to each of the portfolio projects you will complete throughout the course of the Front-End Web Developer Nanodegree.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

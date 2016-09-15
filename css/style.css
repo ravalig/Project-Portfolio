@@ -1,0 +1,44 @@
+body {
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #2d3c49;
+    font-weight: 300;
+}
+
+hr {
+    border: 0 none;
+    color: #eee;
+    height: 4px;
+    background-color: #7d97ad;
+}
+
+img, video {
+    max-width: 100%;
+}
+
+.image-logo {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.image-align {
+    display: flex;
+    justify-content: center;
+}
+
+.align-text {
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.text-muted {
+    color: #bcbbbb;
+}
